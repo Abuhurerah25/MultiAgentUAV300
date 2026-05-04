@@ -1,0 +1,1637 @@
+<sdf version='1.11'>
+  <model name='drone_description'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.00040838199999999999 0.0041638300000000003 0.0099467099999999992 0 0 0</pose>
+        <mass>1.2788999999999999</mass>
+        <inertia>
+          <ixx>0.010383699999999999</ixx>
+          <ixy>-1.5846100000000001e-05</ixy>
+          <ixz>-1.3705399999999999e-05</ixz>
+          <iyy>0.0101929</iyy>
+          <iyz>7.3846599999999999e-05</iyz>
+          <izz>0.0173554</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>-0.192525 -0.136131 0.0339835 1.4660799999999998 -7.7715611723760958e-16 -0.95102100000000012</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_1'>
+        <pose>-0.137768 0.19145300000000001 0.0339835 1.4660799999999998 -1.2212453270876722e-15 -2.52182</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_2'>
+        <pose>0.041918799999999999 -0.00851295 -0.0016000000000000001 3.1415899999999999 -3.6528295850341702e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/bottom_leg_mount_planar.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_3'>
+        <pose>-0.0116405 -0.061288200000000001 0 1.5708 8.8817841970012523e-16 -1.7364200000000003</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pixhawk4mini.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_4'>
+        <pose>-0.012573600000000001 -0.068357000000000001 0.053499999999999999 1.5707999999999998 1.1102230246251565e-16 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/intel_realsense_d435_step_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_5'>
+        <pose>-0.00118903 0.000964626 0.077499999999999999 1.5708 -1.3877787807814457e-16 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jetson_nano_lid_editing.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_6'>
+        <pose>-0.066187499999999996 0.13131799999999999 -0.16197 -1.5708000000000004 -0.98991200000000068 -0.16562299999999971</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_7'>
+        <pose>0.0012740200000000001 -0.0052261599999999997 0.067500000000000004 -1.5708 8.3266726846886741e-16 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jeston_block.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_8'>
+        <pose>0.083917800000000001 -0.015437599999999999 -0.16864999999999999 5.7091912652269903e-16 -0.26060200000000022 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/landing_gear_tee_remix.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_9'>
+        <pose>-0.015704699999999999 -0.084055699999999997 0.053499999999999999 1.5707999999999998 -1.0658503246663287e-10 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/intel_realsense_d435_step_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_10'>
+        <pose>-0.088115799999999994 0.0133185 -0.168376 -7.899509926729169e-17 0.26060200000000022 -0.16562300000000002</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/landing_gear_tee_remix.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_11'>
+        <pose>-0.0013537499999999999 0.00028244700000000001 0.018499999999999999 -6.995060000000001e-17 2.4986200000000002e-16 0.61977500000000008</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/frame_top_lid_with_cut.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_12'>
+        <pose>-0.045450600000000001 0.0041462699999999996 -0.0016000000000000001 -3.1415899999999999 1.6812968728287421e-17 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/bottom_leg_mount_planar.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_13'>
+        <pose>0.189752 0.13459199999999999 0.033849499999999998 1.4696899999999997 0.027326199999999915 2.4536500000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_14'>
+        <pose>-0.0012876599999999999 0.00098111199999999991 0.077499999999999999 1.5707999999999998 -2.7755575615628914e-17 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jetson_nano_lid_editing.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_15'>
+        <pose>0.062847200000000006 -0.13358 -0.16201199999999999 1.5707999999999998 -0.42180300000000004 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_16'>
+        <pose>0.10324 0.108067 -0.16201199999999999 1.5707999999999798 -1.5561900000000202 -0.16562299999997954</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/thin_carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_17'>
+        <pose>0.13506000000000001 -0.190888 0.0339835 1.6755199999999997 -2.2204460492503131e-15 -2.52182</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_18'>
+        <pose>-0.0013537499999999999 0.00028244799999999998 0.0235 1.5707999999999998 1.1102230246251565e-16 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jetson_nano_case_editing.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_19'>
+        <pose>-0.035914500000000002 0.048716000000000002 0.018499999999999999 1.5708 5.5511151231257827e-16 -0.95102100000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_20'>
+        <pose>0.047079799999999998 0.034843199999999998 0.018499999999999999 1.5707999999999998 6.106226635438361e-16 -2.52182</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_21'>
+        <pose>-9.6350700000000006e-05 0.0102881 -0.0146 1.4933400000000002e-21 3.5178799999999986e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/batttery_block.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_22'>
+        <pose>-0.193243 0.18334600000000001 -0.0016000000000000001 1.5701199999999999e-21 3.6761499999999996e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/compound_2_step.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_23'>
+        <pose>0.033207 -0.048151100000000002 0.018499999999999999 1.5708 4.9960036108132044e-16 2.1905700000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_24'>
+        <pose>-0.105755 -0.10539800000000001 -0.16197 1.5708 -1.1615500000000003 -0.16562300000000008</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_25'>
+        <pose>0.102169 0.103177 -0.16201199999999999 -1.5708 -0.10596199999999995 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_26'>
+        <pose>-0.045341800000000002 0.0051005499999999997 -0.0071518700000000003 -1.5707999999999998 -0.260602 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_27'>
+        <pose>-0.0497873 -0.034278299999999998 0.018499999999999999 1.5708 4.9960036108132044e-16 0.61977499999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_28'>
+        <pose>0.04181 -0.0094672300000000001 -0.0071518700000000003 -1.31019 0 -1.7364200000000003</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_29'>
+        <pose>-0.065363199999999996 0.13625000000000001 -0.16197 -1.5708 -1.0885500000000006 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/thin_carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_30'>
+        <pose>-0.015771799999999999 -0.079938300000000004 0.0155 1.5708 -2.7755575615628914e-17 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_31'>
+        <pose>-0.015771799999999999 -0.079938300000000004 0.0155 1.5708 -2.7755575615628914e-17 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_32'>
+        <pose>-0.015771799999999999 -0.079938300000000004 0.0155 1.5708 -2.7755575615628914e-17 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps_step_1__3.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_33'>
+        <pose>0.0271858 0.076968599999999998 5.0000000000000002e-05 1.5701199999999999e-21 3.6761499999999996e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_34'>
+        <pose>-0.020916799999999999 -0.095257599999999998 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_35'>
+        <pose>-0.013385299999999999 -0.071703600000000006 0.0155 1.5708 0 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_36'>
+        <pose>-0.013385299999999999 -0.071703600000000006 0.0155 1.5708 0 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_37'>
+        <pose>-0.013385299999999999 -0.071703600000000006 0.0155 1.5708 0 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/gps_indicator_led.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_38'>
+        <pose>0.0246842 0.085112499999999994 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_39'>
+        <pose>-0.035948300000000002 -0.092745099999999997 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_40'>
+        <pose>-0.0066350000000000003 0.082621899999999998 5.0000000000000002e-05 1.5701199999999999e-21 3.6761499999999996e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_41'>
+        <pose>0.0096527399999999999 0.087625099999999997 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_42'>
+        <pose>-0.0066313400000000003 0.090346999999999997 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_43'>
+        <pose>0.0114567 0.099875199999999997 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_44'>
+        <pose>0.0114567 0.099875199999999997 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_45'>
+        <pose>0.0114567 0.099875199999999997 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_46'>
+        <pose>-0.058506000000000002 -0.017923600000000001 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_47'>
+        <pose>-0.058506000000000002 -0.017923600000000001 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_48'>
+        <pose>-0.058506000000000002 -0.017923600000000001 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_49'>
+        <pose>0.060987600000000003 0.015461600000000001 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_50'>
+        <pose>0.060987600000000003 0.015461600000000001 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_51'>
+        <pose>0.060987600000000003 0.015461600000000001 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_52'>
+        <pose>-0.050014599999999999 0.032537799999999999 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_53'>
+        <pose>-0.050014599999999999 0.032537799999999999 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_54'>
+        <pose>-0.050014599999999999 0.032537799999999999 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_55'>
+        <pose>0.048912200000000003 -0.035580199999999999 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_56'>
+        <pose>0.048912200000000003 -0.035580199999999999 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_57'>
+        <pose>0.048912200000000003 -0.035580199999999999 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>-0.192525 -0.136131 0.0339835 1.4660799999999998 -7.7715611723760958e-16 -0.95102100000000012</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.583333731 0.46078378 1</diffuse>
+          <ambient>1 0.583333731 0.46078378 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_1'>
+        <pose>-0.137768 0.19145300000000001 0.0339835 1.4660799999999998 -1.2212453270876722e-15 -2.52182</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.583333731 0.46078378 1</diffuse>
+          <ambient>1 0.583333731 0.46078378 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_2'>
+        <pose>0.041918799999999999 -0.00851295 -0.0016000000000000001 3.1415899999999999 -3.6528295850341702e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/bottom_leg_mount_planar.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_3'>
+        <pose>-0.0116405 -0.061288200000000001 0 1.5708 8.8817841970012523e-16 -1.7364200000000003</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pixhawk4mini.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990196228 1 0.867647529 1</diffuse>
+          <ambient>0.990196228 1 0.867647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_4'>
+        <pose>-0.012573600000000001 -0.068357000000000001 0.053499999999999999 1.5707999999999998 1.1102230246251565e-16 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/intel_realsense_d435_step_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.877451241 0.877451241 0.877451241 1</diffuse>
+          <ambient>0.877451241 0.877451241 0.877451241 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_5'>
+        <pose>-0.00118903 0.000964626 0.077499999999999999 1.5708 -1.3877787807814457e-16 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jetson_nano_lid_editing.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_6'>
+        <pose>-0.066187499999999996 0.13131799999999999 -0.16197 -1.5708000000000004 -0.98991200000000068 -0.16562299999999971</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_7'>
+        <pose>0.0012740200000000001 -0.0052261599999999997 0.067500000000000004 -1.5708 8.3266726846886741e-16 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jeston_block.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_8'>
+        <pose>0.083917800000000001 -0.015437599999999999 -0.16864999999999999 5.7091912652269903e-16 -0.26060200000000022 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/landing_gear_tee_remix.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_9'>
+        <pose>-0.015704699999999999 -0.084055699999999997 0.053499999999999999 1.5707999999999998 -1.0658503246663287e-10 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/intel_realsense_d435_step_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.877451241 0.877451241 0.877451241 1</diffuse>
+          <ambient>0.877451241 0.877451241 0.877451241 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_10'>
+        <pose>-0.088115799999999994 0.0133185 -0.168376 -7.899509926729169e-17 0.26060200000000022 -0.16562300000000002</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/landing_gear_tee_remix.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_11'>
+        <pose>-0.0013537499999999999 0.00028244700000000001 0.018499999999999999 -6.995060000000001e-17 2.4986200000000002e-16 0.61977500000000008</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/frame_top_lid_with_cut.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_12'>
+        <pose>-0.045450600000000001 0.0041462699999999996 -0.0016000000000000001 -3.1415899999999999 1.6812968728287421e-17 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/bottom_leg_mount_planar.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_13'>
+        <pose>0.189752 0.13459199999999999 0.033849499999999998 1.4696899999999997 0.027326199999999915 2.4536500000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.583333731 0.46078378 1</diffuse>
+          <ambient>1 0.583333731 0.46078378 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_14'>
+        <pose>-0.0012876599999999999 0.00098111199999999991 0.077499999999999999 1.5707999999999998 -2.7755575615628914e-17 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jetson_nano_lid_editing.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_15'>
+        <pose>0.062847200000000006 -0.13358 -0.16201199999999999 1.5707999999999998 -0.42180300000000004 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_16'>
+        <pose>0.10324 0.108067 -0.16201199999999999 1.5707999999999798 -1.5561900000000202 -0.16562299999997954</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/thin_carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.54411751 0 0 1</diffuse>
+          <ambient>0.54411751 0 0 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_17'>
+        <pose>0.13506000000000001 -0.190888 0.0339835 1.6755199999999997 -2.2204460492503131e-15 -2.52182</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/motor_bldc_2212_6t_2200kv.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.583333731 0.46078378 1</diffuse>
+          <ambient>1 0.583333731 0.46078378 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_18'>
+        <pose>-0.0013537499999999999 0.00028244799999999998 0.0235 1.5707999999999998 1.1102230246251565e-16 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/jetson_nano_case_editing.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_19'>
+        <pose>-0.035914500000000002 0.048716000000000002 0.018499999999999999 1.5708 5.5511151231257827e-16 -0.95102100000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.588235021 0.617647529 1</diffuse>
+          <ambient>0 0.588235021 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_20'>
+        <pose>0.047079799999999998 0.034843199999999998 0.018499999999999999 1.5707999999999998 6.106226635438361e-16 -2.52182</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.588235021 0.617647529 1</diffuse>
+          <ambient>0 0.588235021 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_21'>
+        <pose>-9.6350700000000006e-05 0.0102881 -0.0146 1.4933400000000002e-21 3.5178799999999986e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/batttery_block.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.970588744 0.946078718 0.921568751 1</diffuse>
+          <ambient>0.970588744 0.946078718 0.921568751 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_22'>
+        <pose>-0.193243 0.18334600000000001 -0.0016000000000000001 1.5701199999999999e-21 3.6761499999999996e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/compound_2_step.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.313724995 1 0.573530018 1</diffuse>
+          <ambient>0.313724995 1 0.573530018 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_23'>
+        <pose>0.033207 -0.048151100000000002 0.018499999999999999 1.5708 4.9960036108132044e-16 2.1905700000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.588235021 0.617647529 1</diffuse>
+          <ambient>0 0.588235021 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_24'>
+        <pose>-0.105755 -0.10539800000000001 -0.16197 1.5708 -1.1615500000000003 -0.16562300000000008</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_25'>
+        <pose>0.102169 0.103177 -0.16201199999999999 -1.5708 -0.10596199999999995 -0.16562299999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/cap.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_26'>
+        <pose>-0.045341800000000002 0.0051005499999999997 -0.0071518700000000003 -1.5707999999999998 -0.260602 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.0735293776 0.0735293776 0.0735293776 1</diffuse>
+          <ambient>0.0735293776 0.0735293776 0.0735293776 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_27'>
+        <pose>-0.0497873 -0.034278299999999998 0.018499999999999999 1.5708 4.9960036108132044e-16 0.61977499999999996</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/arm___white_stp_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.588235021 0.617647529 1</diffuse>
+          <ambient>0 0.588235021 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_28'>
+        <pose>0.04181 -0.0094672300000000001 -0.0071518700000000003 -1.31019 0 -1.7364200000000003</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.0735293776 0.0735293776 0.0735293776 1</diffuse>
+          <ambient>0.0735293776 0.0735293776 0.0735293776 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_29'>
+        <pose>-0.065363199999999996 0.13625000000000001 -0.16197 -1.5708 -1.0885500000000006 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/thin_carbon_tube.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.54411751 0 0 1</diffuse>
+          <ambient>0.54411751 0 0 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_30'>
+        <pose>-0.015771799999999999 -0.079938300000000004 0.0155 1.5708 -2.7755575615628914e-17 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_31'>
+        <pose>-0.015771799999999999 -0.079938300000000004 0.0155 1.5708 -2.7755575615628914e-17 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_32'>
+        <pose>-0.015771799999999999 -0.079938300000000004 0.0155 1.5708 -2.7755575615628914e-17 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps_step_1__3.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_33'>
+        <pose>0.0271858 0.076968599999999998 5.0000000000000002e-05 1.5701199999999999e-21 3.6761499999999996e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.975489974 1</diffuse>
+          <ambient>1 1 0.975489974 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_34'>
+        <pose>-0.020916799999999999 -0.095257599999999998 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.921568751 0.617647529 1</diffuse>
+          <ambient>1 0.921568751 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_35'>
+        <pose>-0.013385299999999999 -0.071703600000000006 0.0155 1.5708 0 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.313724995 0.313724995 0.313724995 1</diffuse>
+          <ambient>0.313724995 0.313724995 0.313724995 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_36'>
+        <pose>-0.013385299999999999 -0.071703600000000006 0.0155 1.5708 0 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/px4_neo_m8n_gps__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 0.898038983</diffuse>
+          <ambient>1 1 1 0.898038983</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_37'>
+        <pose>-0.013385299999999999 -0.071703600000000006 0.0155 1.5708 0 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/gps_indicator_led.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 0.898038983</diffuse>
+          <ambient>1 1 1 0.898038983</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_38'>
+        <pose>0.0246842 0.085112499999999994 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.921568751 0.617647529 1</diffuse>
+          <ambient>1 0.921568751 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_39'>
+        <pose>-0.035948300000000002 -0.092745099999999997 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.921568751 0.617647529 1</diffuse>
+          <ambient>1 0.921568751 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_40'>
+        <pose>-0.0066350000000000003 0.082621899999999998 5.0000000000000002e-05 1.5701199999999999e-21 3.6761499999999996e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.975489974 1</diffuse>
+          <ambient>1 1 0.975489974 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_41'>
+        <pose>0.0096527399999999999 0.087625099999999997 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.921568751 0.617647529 1</diffuse>
+          <ambient>1 0.921568751 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_42'>
+        <pose>-0.0066313400000000003 0.090346999999999997 5.0000000000000002e-05 3.6761500000000004e-21 -1.5701200000000016e-21 1.40517</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.921568751 0.617647529 1</diffuse>
+          <ambient>1 0.921568751 0.617647529 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_43'>
+        <pose>0.0114567 0.099875199999999997 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_44'>
+        <pose>0.0114567 0.099875199999999997 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_45'>
+        <pose>0.0114567 0.099875199999999997 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.848038733 0.171568751 1</diffuse>
+          <ambient>1 0.848038733 0.171568751 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_46'>
+        <pose>-0.058506000000000002 -0.017923600000000001 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_47'>
+        <pose>-0.058506000000000002 -0.017923600000000001 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_48'>
+        <pose>-0.058506000000000002 -0.017923600000000001 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.848038733 0.171568751 1</diffuse>
+          <ambient>1 0.848038733 0.171568751 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_49'>
+        <pose>0.060987600000000003 0.015461600000000001 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_50'>
+        <pose>0.060987600000000003 0.015461600000000001 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_51'>
+        <pose>0.060987600000000003 0.015461600000000001 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.848038733 0.171568751 1</diffuse>
+          <ambient>1 0.848038733 0.171568751 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_52'>
+        <pose>-0.050014599999999999 0.032537799999999999 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_53'>
+        <pose>-0.050014599999999999 0.032537799999999999 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_54'>
+        <pose>-0.050014599999999999 0.032537799999999999 -0.00165 -3.1415899999999999 3.7587087034409578e-21 -0.16562299999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.848038733 0.171568751 1</diffuse>
+          <ambient>1 0.848038733 0.171568751 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_55'>
+        <pose>0.048912200000000003 -0.035580199999999999 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__2__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_56'>
+        <pose>0.048912200000000003 -0.035580199999999999 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__3__2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 0.818627477 1</diffuse>
+          <ambient>1 1 0.818627477 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_visual_57'>
+        <pose>0.048912200000000003 -0.035580199999999999 -0.00165 3.1415899999999999 -3.8116482626443515e-21 2.9759699999999998</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/pcb_frame_step_1__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.848038733 0.171568751 1</diffuse>
+          <ambient>1 0.848038733 0.171568751 1</ambient>
+        </material>
+      </visual>
+      
+      
+      <sensor name="air_pressure_sensor" type="air_pressure">
+      <gz_frame_id>base_link</gz_frame_id>
+      <pose>0 0 0 0 0 0</pose>
+  <always_on>1</always_on>
+  <update_rate>50</update_rate>
+  <air_pressure>
+    <pressure>
+      <noise type="gaussian">
+        <mean>0</mean>
+        <stddev>3</stddev>
+      </noise>
+    </pressure>
+  </air_pressure>
+</sensor>
+<sensor name="magnetometer_sensor" type="magnetometer">
+<gz_frame_id>base_link</gz_frame_id>
+<pose>0 0 0 0 0 0</pose>
+  <always_on>1</always_on>
+  <update_rate>100</update_rate>
+  <magnetometer>
+    <x><noise type="gaussian"><stddev>0.0001</stddev></noise></x>
+    <y><noise type="gaussian"><stddev>0.0001</stddev></noise></y>
+    <z><noise type="gaussian"><stddev>0.0001</stddev></noise></z>
+  </magnetometer>
+</sensor>
+<sensor name="imu_sensor" type="imu">
+<gz_frame_id>base_link</gz_frame_id>
+<pose>0 0 0 0 0 0</pose>
+  <always_on>1</always_on>
+  <update_rate>250</update_rate>
+  <imu>
+    <angular_velocity>
+      <x><noise type="gaussian"><mean>0.0</mean><stddev>0.0008726646</stddev></noise></x>
+      <y><noise type="gaussian"><mean>0.0</mean><stddev>0.0008726646</stddev></noise></y>
+      <z><noise type="gaussian"><mean>0.0</mean><stddev>0.0008726646</stddev></noise></z>
+    </angular_velocity>
+    <linear_acceleration>
+      <x><noise type="gaussian"><mean>0.0</mean><stddev>0.00637</stddev></noise></x>
+      <y><noise type="gaussian"><mean>0.0</mean><stddev>0.00637</stddev></noise></y>
+      <z><noise type="gaussian"><mean>0.0</mean><stddev>0.00686</stddev></noise></z>
+    </linear_acceleration>
+  </imu>
+</sensor>
+<sensor name="navsat_sensor" type="navsat">
+<gz_frame_id>base_link</gz_frame_id>
+<pose>0 0 0 0 0 0</pose>
+  <always_on>1</always_on>
+  <update_rate>30</update_rate>
+</sensor>
+
+
+    </link>
+    <joint name='rotor_a' type='revolute'>
+      <pose relative_to='base_link'>-0.190078 -0.13438600000000001 0.062576000000000007 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>rotor_0</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          
+          <effort>1000</effort>
+          <velocity>8000</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>0.0</spring_stiffness>
+          <damping>0.01</damping>
+          <friction>0.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='rotor_0'>
+      <pose relative_to='rotor_a'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>3.6444099999999997e-08 1.3531500000000001e-05 -0.0044701200000000002 0 0 0</pose>
+        <mass>0.0093110999999999992</mass>
+        <inertia>
+          <ixx>3.0786800000000001e-05</ixx>
+          <ixy>3.9505999999999999e-07</ixy>
+          <ixz>1.46559e-12</ixz>
+          <iyy>2.58807e-07</iyy>
+          <iyz>9.0015599999999996e-11</iyz>
+          <izz>3.0969000000000001e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='rotor_0_collision'>
+        <pose>3.1306299999999998e-17 0 -0.0050000000000000001 1.5708 -2.1476800000000064e-18 7.5293299999999997e-17</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_0.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='rotor_0_visual'>
+        <pose>3.1306299999999998e-17 0 -0.0050000000000000001 1.5708 -2.1476800000000064e-18 7.5293299999999997e-17</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_0.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='rotor_b' type='revolute'>
+      <pose relative_to='base_link'>0.187306 0.13284599999999999 0.062441999999999998 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>rotor_1</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          
+          <effort>1000</effort>
+          <velocity>8000</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>0.0</spring_stiffness>
+          <damping>0.01</damping>
+          <friction>0.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='rotor_1'>
+      <pose relative_to='rotor_b'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>3.5921400000000003e-08 -1.35305e-05 -0.00552988 0 0 0</pose>
+        <mass>0.0093110999999999992</mass>
+        <inertia>
+          <ixx>3.0786800000000001e-05</ixx>
+          <ixy>-3.9505999999999999e-07</ixy>
+          <ixz>-1.46559e-12</ixz>
+          <iyy>2.58807e-07</iyy>
+          <iyz>9.0015599999999996e-11</iyz>
+          <izz>3.0969000000000001e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='rotor_1_collision'>
+        <pose>-5.2270299999999999e-10 9.7882899999999991e-10 -0.0050000000000000001 -1.5708 1.6154900000000013e-17 -8.0721699999999985e-17</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='rotor_1_visual'>
+        <pose>-5.2270299999999999e-10 9.7882899999999991e-10 -0.0050000000000000001 -1.5708 1.6154900000000013e-17 -8.0721699999999985e-17</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='rotor_c' type='revolute'>
+      <pose relative_to='base_link'>0.13331399999999999 -0.188442 0.062576000000000007 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>rotor_2</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          
+          <effort>1000</effort>
+          <velocity>8000</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>0.0</spring_stiffness>
+          <damping>0.01</damping>
+          <friction>0.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='rotor_2'>
+      <pose relative_to='rotor_c'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>7.1674600000000003e-08 -1.3001400000000001e-05 -0.0044701400000000001 0 0 0</pose>
+        <mass>0.0093112500000000001</mass>
+        <inertia>
+          <ixx>3.0787000000000002e-05</ixx>
+          <ixy>-3.9508299999999999e-07</ixy>
+          <ixz>-8.47082e-13</ixz>
+          <iyy>2.5881599999999998e-07</iyy>
+          <iyz>-9.1361299999999996e-11</iyz>
+          <izz>3.0969200000000002e-05</izz>
+        </inertia>
+      </inertial>
+      
+      <collision name='rotor_2_collision'>
+        <pose>5.5511199999999995e-17 2.7755599999999997e-17 -0.0050000000000000001 1.5708 6.2788300000000031e-18 1.4957099999999994e-18</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='rotor_2_visual'>
+        <pose>5.5511199999999995e-17 2.7755599999999997e-17 -0.0050000000000000001 1.5708 6.2788300000000031e-18 1.4957099999999994e-18</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='rotor_d' type='revolute'>
+      <pose relative_to='base_link'>-0.136022 0.18900700000000001 0.062576000000000007 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>rotor_3</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          
+          <effort>1000</effort>
+          <velocity>8000</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0.0</spring_reference>
+          <spring_stiffness>0.0</spring_stiffness>
+          <damping>0.01</damping>
+          <friction>0.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='rotor_3'>
+      <pose relative_to='rotor_d'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>7.4629800000000003e-08 -1.29913e-05 -0.0044701400000000001 0 0 0</pose>
+        <mass>0.0093112500000000001</mass>
+        <inertia>
+          <ixx>3.0787000000000002e-05</ixx>
+          <ixy>-3.9508299999999999e-07</ixy>
+          <ixz>-8.47082e-13</ixz>
+          <iyy>2.5881599999999998e-07</iyy>
+          <iyz>-9.1361299999999996e-11</iyz>
+          <izz>3.0969200000000002e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='rotor_3_collision'>
+        <pose>2.95516e-09 1.0149800000000001e-08 -0.0050000000000000001 1.5708 -1.7935399999999998e-17 -5.1682300000000001e-17</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_3.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='rotor_3_visual'>
+        <pose>2.95516e-09 1.0149800000000001e-08 -0.0050000000000000001 1.5708 -1.7935399999999998e-17 -5.1682300000000001e-17</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://drone_description/assets/rotor_3.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.995097518 1 1 1</diffuse>
+          <ambient>0.995097518 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      
+      <jointName>rotor_a</jointName>
+      <linkName>rotor_0</linkName>
+      <turningDirection>ccw</turningDirection>
+      <actuator_number>3</actuator_number>
+      
+      <timeConstantUp>0.0182</timeConstantUp>
+      <timeConstantDown>0.0182</timeConstantDown>
+      <maxRotVelocity>4000</maxRotVelocity>
+
+     <motorConstant>1.269e-05</motorConstant>
+     <momentConstant>0</momentConstant>
+
+     <commandSubTopic>command/motor_speed</commandSubTopic>
+    </plugin>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      
+      <jointName>rotor_b</jointName>
+      <linkName>rotor_1</linkName>
+      <turningDirection>ccw</turningDirection>
+      <actuator_number>1</actuator_number>
+      
+      <timeConstantUp>0.0182</timeConstantUp>
+      <timeConstantDown>0.0182</timeConstantDown>
+      <maxRotVelocity>4000</maxRotVelocity>
+
+      <motorConstant>1.269e-05</motorConstant>
+      <momentConstant>0</momentConstant>
+
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+    </plugin>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      
+      <jointName>rotor_c</jointName>
+      <linkName>rotor_2</linkName>
+      <turningDirection>cw</turningDirection>
+      <actuator_number>2</actuator_number>
+      
+      <timeConstantUp>0.0182</timeConstantUp>
+      <timeConstantDown>0.0182</timeConstantDown>
+      <maxRotVelocity>4000</maxRotVelocity>
+
+      <motorConstant>1.269e-05</motorConstant>
+      <momentConstant>0</momentConstant>
+
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+    </plugin>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      
+      <jointName>rotor_d</jointName>
+      <linkName>rotor_3</linkName>
+      <turningDirection>cw</turningDirection>
+      <actuator_number>0</actuator_number>
+      
+      <timeConstantUp>0.0182</timeConstantUp>
+      <timeConstantDown>0.0182</timeConstantDown>
+      <maxRotVelocity>4000</maxRotVelocity>
+
+      <motorConstant>1.269e-05</motorConstant>
+      <momentConstant>0</momentConstant>
+
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+    </plugin>
+  </model>
+</sdf>
